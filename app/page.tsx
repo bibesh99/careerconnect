@@ -1,5 +1,29 @@
-import Image from "next/image";
-
 export default function Home() {
-  return <main> Main</main>;
+  return (
+    <main className=" w-full ">
+      <div className="snap-mandatory scroll-smooth snap-y overflow-y-scroll h-[100vh]">
+        {" "}
+        <div className="snap-start snap-always bg-red-300 flex items-center justify-center h-[100vh]">
+          {" "}
+          Content
+        </div>
+        <div className="snap-start snap-always flex items-center justify-center h-[100vh]">
+          {" "}
+          Content
+        </div>
+        <div className="snap-start snap-always bg-red-300 flex items-center justify-center h-[100vh]">
+          {" "}
+          Content
+        </div>
+        <div className="snap-start snap-always flex items-center justify-center h-[100vh]">
+          {" "}
+          Content
+        </div>
+        <div className="snap-start snap-always bg-red-300 flex items-center justify-center h-[100vh]">
+          {" "}
+          Content
+        </div>
+      </div>
+    </main>
+  );
 }
